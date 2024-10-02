@@ -1,0 +1,2 @@
+서포트 벡터 머신 (SVM) : 독립변수와 종속변수 overfitting 걸릴 확률 거의 없음
+비지도 학습은 label이 없기 때문에 overfitting 걸릴 수 있음.
