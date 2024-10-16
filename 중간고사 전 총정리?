@@ -1,0 +1,36 @@
+20문항 전원 주관식 (한글: 영어약자: 영어)
+1. 인공지능, 머신러닝, 딥러닝    Artificial Intelligence, Machine learning, Deep learning
+2. 전통적인 프로그래밍과 머신러닝의 차이 : 전통적인 프로그래밍: 프로그램을 개발하여 컴퓨터로 입력데이터를 처리하면 출력 데이터가 생성된다.
+머신러닝: 입력데이터와 출력데이터를 컴퓨터에 제공하면 컴퓨터가 스스로 프로그램 코드를 생성한다. training dataset, test dataset 비율 6:4 7:3 8:2 조절
+3.머신러닝의 종류: 1 지도학습(Supervised Learning) 2 비지도 학습(Unsupervised learning) 3 강화학습(reinforcement learning): 강화학습은 설명을 외우지 않아도 된다.
+4. 혼동행렬(Confusion Matrix) tp, tn, fn, fp 가 무엇이냐 (covid 19가 병 걸렸다 안걸렸다 예제)  precision, recall 등등 구하는 문제
+5. Data 는 training data set, test data set으로 나뉜다
+6. Knn, Kmeans, SVM 코드 빈 공간 채우기, 코드블럭이 무슨 의미인지 설명, 빵구난 코드 채우기
+7. 지도학습 : 회귀: 연속형 데이터, 분류: 이산형 데이터
+8. Knn 장단점을 쓰세요. 장점: 직관적이며 사용하기 쉽다. 단점: instance 가 2000개 3000개 넘어가면 쓰기 안좋다.
+9. dataset = pd.read_csv('../chap3/data/iris.data', names=names) 어디 폴더 밑에 무슨 데이터파일 있는지 찾아내기
+10 dataset.iloc[:, :-1].values 모든 행을 사용하지만 열(칼럼)은 뒤에서 하나를 뺀 값을 가져와서 X에 저장
+   dataset.iloc[:, 4].values   모든 행을 사용하지만 열은 앞에서 다섯 번째 값만 가져와서 y에 저장
+11. from sklearn.neighbors import KNeighborsClassifier 
+12. 정확도 소수점 3자리 까지 출력으로 고치기 , 평가파트 코드
+13. 평가가 붙을거고 시각화가 붙음 시각화 .show() 부분 시험
+14. k 값 1과 2는 쓰는게 아니고 홀수 값만 쓴다.
+15. SVM Margin이 중요하고 Margin을 최대한 넓게 해야한다. C값과 감마값을 넓게 해서 이상치를 넣을 것인가 뺄 것인가, 넣는다면 얼마나 넣을 것인가.
+16. 서포트 벡터머신, 마진, 결정 경계 용어의 한글 영어 다 써야함
+17. C 값 0.1부터 10 사이 정도 
+18. 선형 커널, 폴리(다항식 커널), 가우시안 RBF 커널 폴리는 거의 안씀
+19. 로지스틱 회귀, 선형 회귀
+20. 선형회귀 용어들 중 2개 나온다. 
+23. kmeans 클러스터링이 바뀌는 거
+24. kmeans 군집화로 나눔
+25. kmeans 라이브러리 호출, 데이터 폴더 호출, 파일 불러오기
+26. k값 함수 보고 k값을 정한 근거를 보여주기.
+28. PCA(주성분 분석) instance 12000 feature 30개 데이터 빈공간 15개 있을때 대책을 쓰기, 그리고 근거 쓰기 null값 주거나 평균값을 주거나 
+29. precision 과 recall 구하기 3 X 3 f1 score까지 사용
+30. PCA 차원의 저주를 방지하기 위해서 차원 축소를한다 (Overfitting)방지 instance를 늘려야 하나 feature을 줄여야 하나 문제 나옴
+
+
+안나오는 거
+21. 선형회귀와 로지스틱 회귀의 코드는 안나온다.
+22. mneast도 안나온다.
+27. 밀도 기반 군집 분석 안나옴
